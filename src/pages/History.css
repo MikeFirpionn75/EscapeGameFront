@@ -1,0 +1,77 @@
+.reservAll {
+  padding: 1em;
+  border-radius: 0.5em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 35vh;
+}
+
+.h2resa {
+  color: black;
+}
+
+.reservOne {
+  background-color: midnightblue;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-radius: 16px;
+  /* box-shadow:  5px 5px 15px rgb(2, 2, 156),
+    -5px -5px 15px rgb(0, 0, 218); */
+  box-shadow: 10px 10px 8px teal;
+}
+
+.PAndS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.participantsList {
+  margin: 0;
+}
+
+.participants {
+  margin-bottom: 0.5em;
+}
+
+.green {
+  color: rgb(19 207 19);
+}
+
+.red {
+  color: rgb(255 0 0);
+}
+
+.eventAndDelete{
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
+@media screen and (max-width: 900px) {
+  .reservOne {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reservOne {
+    width: 90%;
+  }
+}

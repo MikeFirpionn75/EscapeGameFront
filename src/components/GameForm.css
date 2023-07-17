@@ -1,0 +1,12 @@
+input{
+    background-color: white;
+    margin: 1em;
+    margin-bottom:3%;
+    height: 3em;
+}
+
+.PlayerPlusDate{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

@@ -1,1 +1,3 @@
-# EscapeGameFront
+# escape-game-front
+
+frontend

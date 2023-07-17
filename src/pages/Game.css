@@ -1,0 +1,11 @@
+.imgGame{
+    width: 50%;
+    border-radius: .5em;
+    margin-top: 3em;
+}
+
+.pageGame{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
